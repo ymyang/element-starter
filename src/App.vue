@@ -11,7 +11,7 @@
 </style>
 
 <script>
-import { get } from './fetch'
+import { get } from './common/fetch'
 
 export default {
   components: {

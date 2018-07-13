@@ -1,4 +1,4 @@
-import { get } from '../fetch'
+import { get } from '../common/fetch'
 
 export function FETCH_PROJECT_TREE_DATA ({ commit }) {
     const url = 'project/tree'

@@ -1,19 +1,19 @@
 {
-  "name": "dc-hkb-pc",
+  "name": "element-stater",
   "version": "1.0.0",
-  "description": "dc-hkb-pc",
+  "description": "element-stater",
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --hot --env.dev",
     "build": "rimraf dist && webpack -p --progress --hide-modules"
   },
-  "author": "kaisagroup",
+  "author": "ymyang",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "element-ui": "^2.4.3",
     "font-awesome": "^4.7.0",
     "vue": "^2.5.16",
-    "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
     "vuex-router-sync": "^5.0.0"

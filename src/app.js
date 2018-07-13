@@ -5,8 +5,8 @@ import 'font-awesome/css/font-awesome.css'
 
 import router from './router'
 import store from './store'
-import * as filters from './filters'
-import mixins from './mixins'
+import * as filters from './common/filters'
+import mixins from './common/mixins'
 
 import ElementUI from 'element-ui'
 
